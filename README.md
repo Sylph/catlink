@@ -16,7 +16,7 @@
 
 <div align="right">
   <span style="margin-right: 10px; font-size: 16px; font-style: italic">Spotted the issue?</span>
-  <a href="https://github.com/hasscc/catlink/issues/new?assignees=&labels=bug%2Ctriage&template=bug_report.md&title=%5BBug%5D%3A+" target="_blank" style="text-decoration: none;"><span style="background-color: #f44b42; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 4px;">Report a Bug</span></a>
+  <a href="https://github.com/Sylph/catlink/issues/new?assignees=&labels=bug%2Ctriage&template=bug_report.md&title=%5BBug%5D%3A+" target="_blank" style="text-decoration: none;"><span style="background-color: #f44b42; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 4px;">Report a Bug</span></a>
 </div>
 
 ---
@@ -68,7 +68,7 @@ The CatLINK custom integration provides seamless support for integrating your Ca
 > Download and copy `custom_components/catlink` folder to `custom_components` folder in your HomeAssistant config folder
 
 #### Method 2: Manual download from GitHub
-1. Download the `custom_components.zip` from the [latest release](https://github.com/hasscc/catlink/releases)
+1. Download the release assets (or the source archive) from the [latest release](https://github.com/Sylph/catlink/releases)
 2. Extract it so you have a `custom_components/catlink` folder
 3. Copy that folder into your Home Assistant `config/custom_components/` directory
 4. Restart Home Assistant
