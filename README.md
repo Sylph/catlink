@@ -60,7 +60,7 @@ The CatLINK custom integration provides seamless support for integrating your Ca
 # Installation:
 
 ### Easy way
-[![HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=integration&owner=hasscc&repository=catlink)
+[![HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=integration&owner=Sylph&repository=catlink)
 
 ### Manually
 
