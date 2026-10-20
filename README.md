@@ -67,21 +67,16 @@ The CatLINK custom integration provides seamless support for integrating your Ca
 #### Method 1: Manually installation via Samba / SFTP
 > Download and copy `custom_components/catlink` folder to `custom_components` folder in your HomeAssistant config folder
 
-#### Method 2: Onkey shell via SSH / Terminal & SSH add-on
-```shell
-wget -O - https://get.hacs.vip | DOMAIN=catlink REPO_PATH=hasscc/catlink ARCHIVE_TAG=main bash -
-```
+#### Method 2: Manual download from GitHub
+1. Download the `custom_components.zip` from the [latest release](https://github.com/hasscc/catlink/releases)
+2. Extract it so you have a `custom_components/catlink` folder
+3. Copy that folder into your Home Assistant `config/custom_components/` directory
+4. Restart Home Assistant
 
-#### Method 3: shell_command service
-1. Copy this code to file `configuration.yaml`
-    ```yaml
-    shell_command:
-      update_catlink: |-
-        wget -O - https://get.hacs.vip | DOMAIN=catlink REPO_PATH=hasscc/catlink ARCHIVE_TAG=main bash -
-    ```
-2. Restart HA core
-3. Call this [`service: shell_command.update_catlink`](https://my.home-assistant.io/redirect/developer_call_service/?service=shell_command.update_catlink) in Developer Tools
-2. Restart HA core again
+> ⚠️ Previous versions of this README suggested installing via
+> `wget -O - https://get.hacs.vip | ... bash -`. **Do not use that** — piping a
+> remote script into a shell executes unreviewed code on your Home Assistant
+> host. The manual download above (or HACS) is the safe path.
 
 ## Supported Devices and Operations
 
